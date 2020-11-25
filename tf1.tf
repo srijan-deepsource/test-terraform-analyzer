@@ -12,4 +12,5 @@ resource "aws_db_instance" "mysql" {
   db_subnet_group_name   = "app-subnet-group"
   parameter_group_name   = "default.mysql5.7" // default DB parameter group!
   multi_az               = true
+  pssword                = "Asdf"
 }
